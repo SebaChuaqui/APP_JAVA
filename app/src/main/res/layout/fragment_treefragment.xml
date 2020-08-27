@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="409dp"
+            android:layout_height="46dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                android:text="@string/Text7" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                android:text="@string/Text8" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Text2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="81dp"
+                    android:layout_height="wrap_content"
+                    android:text="SI"
+                    android:textColor="#1CE624" />
+
+                <RadioButton
+                    android:id="@+id/radioButton7"
+                    android:layout_width="74dp"
+                    android:layout_height="wrap_content"
+                    android:text="NO"
+                    android:textColor="#F31E0F" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Text3" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioButton3"
+                android:layout_width="82dp"
+                android:layout_height="wrap_content"
+                android:text="SI"
+                android:textColor="#1CE624" />
+
+            <RadioButton
+                android:id="@+id/radioButton8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NO"
+                android:textColor="#F31E0F" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Text4" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioButton4"
+                android:layout_width="84dp"
+                android:layout_height="wrap_content"
+                android:text="SI"
+                android:textColor="#1CE624" />
+
+            <RadioButton
+                android:id="@+id/radioButton9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NO"
+                android:textColor="#F31E0F" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Text5" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioButton5"
+                android:layout_width="85dp"
+                android:layout_height="wrap_content"
+                android:text="SI"
+                android:textColor="#1CE624" />
+
+            <RadioButton
+                android:id="@+id/radioButton10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NO"
+                android:textColor="#F31E0F" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Text6" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioButton6"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:text="Normal"
+                android:textColor="#0B0A0A" />
+
+            <RadioButton
+                android:id="@+id/radioButton11"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:text="Regular"
+                android:textColor="#C1D313" />
+
+            <RadioButton
+                android:id="@+id/radioButton12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Malas"
+                android:textColor="#F81606" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="210dp"
+                android:layout_height="match_parent"
+                android:text="@string/Guardar" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="201dp"
+                android:layout_height="match_parent"
+                android:text="@string/Alerta" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageview"
+            android:layout_width="match_parent"
+            android:layout_height="202dp"
+            tools:src="@tools:sample/backgrounds/scenic[15]" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="90dp"
+                android:layout_height="51dp"
+                android:layout_weight="1"
+                android:text="@string/Text9"
+                android:textAlignment="textEnd"
+                android:textColor="#0B0A0A"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="53dp"
+                android:layout_weight="1"
+                android:text="@string/Text10"
+                android:textColor="#0B0A0A"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>

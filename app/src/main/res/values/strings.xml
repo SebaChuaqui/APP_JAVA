@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">APP_JAVA</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Text2">Texto 2</string>
+    <string name="Text3">Texto 3</string>
+    <string name="Text4">Texto 4</string>
+    <string name="Text5">Texto 5</string>
+    <string name="Text6">Texto 6</string>
+    <string name="Text7">Texto 7</string>
+    <string name="Text8">Texto 8</string>
+    <string name="Text9">Texto 9</string>
+    <string name="Text10">Texto 10</string>
+    <string name="Text11"> Texto 11</string>
+    <string name="Guardar">Guardar</string>
+    <string name="Alerta">Alerta</string>
+    <string name="TextView1">Ingrese su Correo</string>
+    <string name="TextView2">Su Contraseña</string>
+    <string name="Ingresar">Ingresar</string>
+    <string name="first_fragment_label">first_fragment_label</string>
+    <string name="second_fragment_label">first_fragment_label</string>
+</resources>
