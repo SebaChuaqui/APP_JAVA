@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">APP_JAVA</string>
     <!-- TODO: Remove or change this placeholder text -->
+    <string name="Text1">Texto 1</string>
     <string name="Text2">Texto 2</string>
     <string name="Text3">Texto 3</string>
     <string name="Text4">Texto 4</string>
@@ -18,4 +19,6 @@
     <string name="Ingresar">Ingresar</string>
     <string name="first_fragment_label">first_fragment_label</string>
     <string name="second_fragment_label">first_fragment_label</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

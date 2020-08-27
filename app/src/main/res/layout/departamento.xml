@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/img_depto"
+        android:layout_width="149dp"
+        android:layout_height="112dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_edif"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <TextView
+        android:id="@+id/tv_edif"
+        android:layout_width="235dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="5dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/tv_depto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/img_depto"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_depto"
+        android:layout_width="235dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="5dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/tv_direc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/img_depto"
+        app:layout_constraintTop_toBottomOf="@+id/tv_edif" />
+
+    <TextView
+        android:id="@+id/tv_direc"
+        android:layout_width="235dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_depto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

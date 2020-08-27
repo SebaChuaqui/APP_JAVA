@@ -20,13 +20,15 @@
         android:name="com.example.app_java.SecondFragment"
         android:label="@string/second_fragment_label"
         tools:layout="@layout/fragment_secondfragment">
+
         <action
-            android:id="@+id/action_SecondFragment_to_thirdFragment"
-            app:destination="@id/thirdFragment" />
+            android:id="@+id/action_SecondFragment_to_tercerFragment"
+            app:destination="@id/tercerFragment" />
     </fragment>
     <fragment
-        android:id="@+id/thirdFragment"
-        android:name="com.example.app_java.TreeFragment"
-        android:label="fragment_third"
-        tools:layout="@layout/fragment_treefragment" />
+        android:id="@+id/tercerFragment"
+        android:name="com.example.app_java.TercerFragment"
+        android:label="fragment_tercer"
+        tools:layout="@layout/fragment_tercer" />
+
 </navigation>

@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    android:layout_height="match_parent">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -51,14 +51,14 @@
                     android:layout_width="81dp"
                     android:layout_height="wrap_content"
                     android:text="SI"
-                    android:textColor="#1CE624" />
+                    android:textColor="#3F51B5" />
 
                 <RadioButton
                     android:id="@+id/radioButton7"
                     android:layout_width="74dp"
                     android:layout_height="wrap_content"
                     android:text="NO"
-                    android:textColor="#F31E0F" />
+                    android:textColor="#FF5722" />
             </RadioGroup>
 
         </LinearLayout>
@@ -79,14 +79,14 @@
                 android:layout_width="82dp"
                 android:layout_height="wrap_content"
                 android:text="SI"
-                android:textColor="#1CE624" />
+                android:textColor="#3F51B5" />
 
             <RadioButton
                 android:id="@+id/radioButton8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="NO"
-                android:textColor="#F31E0F" />
+                android:textColor="#FF5722" />
         </LinearLayout>
 
         <TextView
@@ -105,14 +105,14 @@
                 android:layout_width="84dp"
                 android:layout_height="wrap_content"
                 android:text="SI"
-                android:textColor="#1CE624" />
+                android:textColor="#3F51B5" />
 
             <RadioButton
                 android:id="@+id/radioButton9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="NO"
-                android:textColor="#F31E0F" />
+                android:textColor="#FF5722" />
         </LinearLayout>
 
         <TextView
@@ -131,14 +131,14 @@
                 android:layout_width="85dp"
                 android:layout_height="wrap_content"
                 android:text="SI"
-                android:textColor="#1CE624" />
+                android:textColor="#3F51B5" />
 
             <RadioButton
                 android:id="@+id/radioButton10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="NO"
-                android:textColor="#F31E0F" />
+                android:textColor="#FF5722" />
         </LinearLayout>
 
         <TextView
@@ -157,21 +157,21 @@
                 android:layout_width="125dp"
                 android:layout_height="wrap_content"
                 android:text="Normal"
-                android:textColor="#0B0A0A" />
+                android:textColor="#3F51B5" />
 
             <RadioButton
                 android:id="@+id/radioButton11"
                 android:layout_width="125dp"
                 android:layout_height="wrap_content"
                 android:text="Regular"
-                android:textColor="#C1D313" />
+                android:textColor="#FF9800" />
 
             <RadioButton
                 android:id="@+id/radioButton12"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Malas"
-                android:textColor="#F81606" />
+                android:textColor="#FF5722" />
         </LinearLayout>
 
         <LinearLayout
@@ -193,10 +193,10 @@
         </LinearLayout>
 
         <ImageView
-            android:id="@+id/imageview"
+            android:id="@+id/imageView3"
             android:layout_width="match_parent"
             android:layout_height="202dp"
-            tools:src="@tools:sample/backgrounds/scenic[15]" />
+            tools:src="@tools:sample/backgrounds/scenic" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -210,7 +210,7 @@
                 android:layout_weight="1"
                 android:text="@string/Text9"
                 android:textAlignment="textEnd"
-                android:textColor="#0B0A0A"
+                android:textColor="#0B1F8F"
                 android:textStyle="bold" />
 
             <TextView
@@ -219,8 +219,7 @@
                 android:layout_height="53dp"
                 android:layout_weight="1"
                 android:text="@string/Text10"
-                android:textColor="#0B0A0A"
-                android:textStyle="bold" />
+                android:textColor="#06166C" />
         </LinearLayout>
 
     </LinearLayout>
